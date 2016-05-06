@@ -1,0 +1,39 @@
+.pendientes {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.header{
+	background-color: #BFC2E8;
+	text-align: center;
+	
+}
+.add{
+	align-items: center;
+	border-bottom: solid 1px #000;
+	padding-bottom: 2%;
+	display: inline;
+}
+.tareaInput{
+	overflow-y: scroll;
+}
+.completed-task{
+	margin-top: 30px;
+	overflow-y:scroll;
+	height: 11em;
+	
+}
+.li , input{
+	background-color: #D8D8D8;
+	border-radius: 5px;
+	margin: 4px;
+    padding: 1%;
+    box-shadow: rgb(192,192,192) ;
+    list-style: none;
+
+}
+a{
+	text-decoration: none;
+}
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
